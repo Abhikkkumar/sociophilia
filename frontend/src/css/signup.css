@@ -1,0 +1,68 @@
+.signUp {
+  /* background-image: url("https://img.freepik.com/premium-vector/colorful-smooth-gradient-background_97886-980.jpg"); */
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+body {
+  box-sizing: border-box;
+}
+
+.form {
+  background-color: #fff;
+  padding: 25px;
+  border: 1px solid rgb(121, 87, 87);
+  border-radius: 1px;
+}
+.logo-txt {
+  font-family: "Caveat", cursive;
+  font-size: 60px;
+  margin: 1px;
+  color: #030404;
+}
+.signUpLogo {
+  width: 200px;
+  height: 100px;
+  /* object-fit: contain; maintains aspect ratio */
+}
+.loginPara {
+  color: rgba(var(--f52, 142, 142, 142), 1);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0 40px 20px;
+}
+input {
+  padding: 5px;
+  margin: 3px 0;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.form > div {
+  width: 80%;
+  margin: auto;
+}
+#submit-btn {
+  background-color: #1773ea;
+  border: none;
+  border-radius: 3px;
+  width: 80%;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.form2 {
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 5px;
+  border: 1px solid rgb(121, 87, 87);
+  border-radius: 1px;
+}

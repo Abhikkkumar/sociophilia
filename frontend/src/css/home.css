@@ -1,0 +1,129 @@
+.card {
+  width: 500px;
+  height: max-content;
+  margin: 25px auto;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+}
+.card-header > h5 {
+  margin: 0 5px;
+
+  /* padding: 0 11px; */
+}
+.card-pic {
+  padding-left: 10px;
+}
+.card-pic > img {
+  width: 50px;
+
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+.card-content {
+  text-align: left;
+  line-height: 4px;
+  padding: 3px 10px;
+  border-bottom: 1px solid rgb(173, 173, 173);
+}
+
+.add-comment {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+
+.add-comment input {
+  margin: 0;
+  outline: 0;
+  border: 0;
+  padding: 10px;
+}
+
+.comment {
+  border: none;
+  background: none;
+  font-weight: bolder;
+  cursor: pointer;
+  color: #5797c2;
+}
+
+.material-symbols-outlined-red {
+  color: red;
+  font-variation-settings: "FILL" 1, "wght" 600, "GRAD" 0, "opsz" 24;
+}
+.material-symbols-outlined {
+  cursor: pointer;
+}
+
+.showComment {
+  width: 100vw;
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(16, 13, 13, 0.4);
+}
+.container {
+  display: flex;
+  width: 90%;
+
+  height: 90%;
+  background-color: white;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.postPic {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.postPic img {
+  object-fit: contain;
+  width: 98%;
+  margin: 1px auto;
+  max-height: 100%;
+  /* width: auto; */
+}
+.details {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+}
+.comment-section {
+  flex-grow: 4;
+  text-align: left;
+  margin-left: 10px;
+}
+
+
+.close-comment {
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.material-symbols-outlined-closed {
+  font-size: 50px;
+  color: #ff3e4e;
+  
+  font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 24;
+}

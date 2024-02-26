@@ -1,0 +1,39 @@
+.signIn{
+    /* background-image: url("https://img.freepik.com/premium-vector/colorful-smooth-gradient-background_97886-980.jpg"); */
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginForm{
+    background-color: #ffffff9c;
+    padding:25px;
+    border: 1px solid rgb(121, 87, 87);
+    border-radius: 1px;
+
+}
+
+.loginForm2{
+    background-color: #ffffff9c;
+    padding:20px;
+    margin-top: 5px;
+    border: 1px solid rgb(121, 87, 87);
+    border-radius: 1px;
+}
+#login-btn{
+    background-color: #1773EA;
+    border:none;
+    border-radius: 3px;
+    
+    color:#fff;
+    font-weight: bold;
+    padding:5px 10px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.insta-logo-1{
+    width:115px;
+}

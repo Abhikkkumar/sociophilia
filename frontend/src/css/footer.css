@@ -1,0 +1,13 @@
+.footer{
+    width: 100%;
+    height: 100px;
+    /* background-image: url("../img/bg.jpg"); */
+    background-color: #04345c;
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer > p{
+    color: #fff;
+}

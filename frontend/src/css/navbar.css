@@ -1,0 +1,77 @@
+img{
+    width: 10%;
+    object-fit: contain;
+}
+body{
+    box-sizing: border-box;
+}
+
+.navbar{
+    /* width: 95%; */
+    padding-right: 2%;
+    display: flex;
+    justify-content: space-between;
+    
+    box-shadow: 1px 5px 5px #e0dcdc;
+}
+.n-one{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.insta-logo{
+    width:65px;
+}
+ul{
+    display: flex;
+    align-items: baseline;
+    
+}
+
+li{
+    list-style: none;
+    padding: 1px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.nav-item{
+    padding: 7px 20px;
+    font-size: 18px;
+    color:black
+    
+}
+.home-search > input{
+    /* background-color: #385c77; */
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    border: none;
+    padding:5px;
+    height: 35px;
+    /* color: #fff; */
+    text-align: center;
+}
+.home-search > input::placeholder{
+    /* color:#fff; */
+    text-align: center;
+}
+
+.primaryBtn{
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 13px 25px;
+    font-size: 0.8rem;
+    border:none;
+    color:white;
+    background: #db183c;
+    border-radius: 15px;
+    transition: all 0.25s ease;
+}
+
+.primaryBtn:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px -10px rgba(219,24,44,0.6);
+}

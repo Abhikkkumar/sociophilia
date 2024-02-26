@@ -1,0 +1,17 @@
+.downloadBtn{
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 2rem;
+    background-color: rgb(155, 204, 82);
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.download-body{
+  display: flex;
+    flex-direction: column;
+    
+    max-height: 40vh;
+}
